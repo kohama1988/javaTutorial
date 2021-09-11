@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ArrayTest {
     public static void main(String[] args){
         // 一维数组的声明和初始化
@@ -57,5 +59,11 @@ public class ArrayTest {
         }
         System.out.println("************************");
         // 数组的内存解析
+
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        System.out.println("你输入的是："+ n);
+        
+
     }
 }

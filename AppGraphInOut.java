@@ -12,7 +12,7 @@ class AppFrame extends JFrame{
     JTextField in = new JTextField(10);
     JButton btn = new JButton("求平方");
     JLabel out = new JLabel("用于显示结果的标签");
-
+      
     public AppFrame(){
         setLayout(new FlowLayout());
         getContentPane().add(in);
