@@ -5,8 +5,8 @@ public class ArrayTest {
         // 一维数组的声明和初始化
         // 如何调用数组的指定文职的元素
         // 静态初始化
-        int[] ids;
-        ids = new int[]{1,2,3,4};
+        // int[] ids;
+        // ids = new int[]{1,2,3,4};
         // System.out.println(ids[3]);
         // 动态初始化
         String[] names = new String[5];
@@ -63,7 +63,7 @@ public class ArrayTest {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         System.out.println("你输入的是："+ n);
-        
+        scanner.close();
 
     }
 }

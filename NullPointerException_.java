@@ -1,9 +1,8 @@
-import java.util.Arrays;
 
 public class NullPointerException_ {
     public static void main(String[] args) {
         // 空指针异常：NullPointerException
-        int[] arr = new int[]{1,2,3,4,5};
+        // int[] arr = new int[]{1,2,3,4,5};
         // System.out.println(Arrays.toString(arr));
         // arr = null;
         // System.out.println(arr[0]); // error

@@ -2,7 +2,7 @@ public class ArrayMulti {
     public static void main(String[] args) {
         // 2维数组的声明，初始化
         int[][] arr = new int[][]{{1,2,3},{4,5,6},{7,8}};
-        int[][] arr1 = new int[3][2];
+        // int[][] arr1 = new int[3][2];
 
         // 数组元素的调用
         System.out.println(arr[0][0]);
