@@ -1,3 +1,4 @@
+package Basic;
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = new int[]{98,-34,2,34,-54,6,79,-15,21,-22};

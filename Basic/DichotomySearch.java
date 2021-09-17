@@ -1,3 +1,4 @@
+package Basic;
 public class DichotomySearch {
     public static void main(String[] args) {
         int[] arr = new int[]{-98,-34,2,34,54,66,79,105,210,222};

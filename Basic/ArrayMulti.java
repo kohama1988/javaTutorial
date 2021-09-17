@@ -1,3 +1,4 @@
+package Basic;
 public class ArrayMulti {
     public static void main(String[] args) {
         // 2维数组的声明，初始化

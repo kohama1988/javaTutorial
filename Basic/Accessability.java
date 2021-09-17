@@ -1,3 +1,4 @@
+package Basic;
 public class Accessability {
     public static void main(String[] args) {
         //private   只能在类内部访问

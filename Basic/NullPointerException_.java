@@ -1,4 +1,4 @@
-
+package Basic;
 public class NullPointerException_ {
     public static void main(String[] args) {
         // 空指针异常：NullPointerException

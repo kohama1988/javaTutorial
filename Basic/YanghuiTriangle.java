@@ -1,3 +1,4 @@
+package Basic;
 public class YanghuiTriangle {
     public static void main(String[] args) {
         // 声明初始化2维数组

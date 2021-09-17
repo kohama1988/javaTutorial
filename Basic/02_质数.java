@@ -1,3 +1,5 @@
+package Basic;
+
 // class PrimeNumberTest{
 //     public static void main(String[] args){
 //         //输出100以内的所有质数

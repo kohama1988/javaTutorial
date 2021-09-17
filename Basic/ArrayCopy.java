@@ -1,3 +1,4 @@
+package Basic;
 public class ArrayCopy {
     public static void main(String[] args) {
         // arr1 = arr2 操作时 2者参照的地址值相同，所以修改arr2值时也会修改arr1，

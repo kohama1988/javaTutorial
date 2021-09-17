@@ -1,3 +1,4 @@
+package Basic;
 public class MethodArgs {
     public static void main(String[] args) {
         //可变个数形参的方法

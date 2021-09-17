@@ -1,3 +1,4 @@
+package Basic;
 public class ClassMethod {
     public static void main(String[] args) {
         
