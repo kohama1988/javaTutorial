@@ -2,6 +2,7 @@ package InterfaceTest1;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 
 interface DebugPrint{
     void debugPrint();
@@ -33,10 +34,11 @@ class MyFileReader extends FileReader implements DebugPrint{
 }
 
 public class InterfaceTest1 {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         MyNumber num = new MyNumber(123);
         num.debugPrint();
         MyFileReader reader = new MyFileReader("InterfaceTest1.java");
         reader.debugPrint();
+        reader.close();
     }
 }
